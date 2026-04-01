@@ -83,3 +83,39 @@ public class Exercise {
        
   }
 }
+*********************************************************************************************************
+class TypeConversion
+{
+    public static void main(String args[])
+    {
+        //byte b = 125;
+        int a = 257;
+        byte k = (byte) a;
+
+        float f = 5.6f;
+        int t = (int) f;
+
+        System.out.println(t);
+    }
+}
+
+******************************************************************************************************
+Arthametic operator
+
+int res = num1 + num2;
+System.out.println(res); // Output: 12
+● Addition (+): Adds two operands.
+● Subtraction (-): subtracts the second operand from the first.
+● Multiplication (*): Multiplies two operands.
+● Division (/): Divides the first operand by the second, giving the quotient.
+● Modulus (%) : Returns the remainder after division.
+Example: modulus operation
+int num1 = 26;
+int num2 = 5;
+int res = num1 % num2;
+System.out.println(res); // Output: 1
+In this example, 26 % 5 equals 1 because 26 divided by 5 is 5 with a remainder
+of 1.
+
+c++ => post increment it will fist fecth the value then it will increment it (If it is applied with the assigmnet operator)
+++c => pre increment it will first incremt thge value then assign it( If it is applied with the assigmnet operator)
