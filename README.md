@@ -130,3 +130,38 @@ Greater than or equal to (>=): Checks if the left operand is greater than or
 equal to the right operand.
 Less than or equal to (<=): Checks if the left operand is less than or equal to the
 right operand.
+
+******************************************************************************************************
+Realation 
+
+AND (&&)
+
+👉 True only when both are true
+
+T && T → T
+T && F → F
+F && T → F
+F && F → F
+✅ OR (||)
+
+👉 True if at least one is true
+
+T || T → T
+T || F → T
+F || T → T
+F || F → F
+✅ NOT (!)
+
+👉 Reverses the value
+
+!T → F
+!F → T
+******************************************************************************************************
+else if
+if (condition1) {
+ // code to execute if condition1 is true
+} else if (condition2) {
+ // code to execute if condition2 is true
+} else {
+ // code to execute if all conditions are false
+}
