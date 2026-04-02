@@ -119,3 +119,14 @@ of 1.
 
 c++ => post increment it will fist fecth the value then it will increment it (If it is applied with the assigmnet operator)
 ++c => pre increment it will first incremt thge value then assign it( If it is applied with the assigmnet operator)
+******************************************************************************************************
+Realtional opertor
+implementation:
+Equality (==): Checks if two values are equal.
+Inequality (!=): Checks if two values are not equal.
+Greater than (>): checks if the left operand is greater than the right operand.
+Less than (<): Checks if the left operand is less than the right operand.
+Greater than or equal to (>=): Checks if the left operand is greater than or
+equal to the right operand.
+Less than or equal to (<=): Checks if the left operand is less than or equal to the
+right operand.
