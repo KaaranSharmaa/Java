@@ -265,3 +265,10 @@ In this example:
  The loop continues to run while i <= 4. As a result, numbers from 1 to 4 are printed.
  Even if i was initially greater than 4, the message would still print once because the condition
 is checked after the code block execution.
+
+******************************************************************************************************
+For loop;
+// Example 1: Printing "Hi" with indices
+ for (int i = 0; i <= 4; i++) {
+ System.out.println("Hi " + i);
+ }
