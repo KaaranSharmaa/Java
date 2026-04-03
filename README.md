@@ -279,4 +279,11 @@ equals(anotherString) – This checks if two strings are exactly the same, inclu
 equalsIgnoreCase(anotherString) – This checks if two strings are the same, ignoring differences between uppercase and lowercase.
 toLowerCase() – This converts the entire string to lowercase letters.
 ******************************************************************************************************
+Java Classes
+● A class in Java is a blueprint for creating objects. It defines common
+behaviors and properties shared by all objects of that class. Classes are
+user-defined data types that act as templates for objects.
+Java Objects
+● An object in Java is an instance of a class. It is a basic unit of
+Object-Oriented Programming and represents real-life entities.
 
