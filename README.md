@@ -249,4 +249,19 @@ while (i < 4) { // Loop continues while i is less than 4
  i++;}
 
  ******************************************************************************************************
-
+Do while
+public class Main {
+ public static void main(String[] args) {
+ int i = 1;
+ do {
+ System.out.println(i);
+ i++;
+ } while (i <= 4);
+ }
+}
+In this example:
+ The variable i is initialized to 1.
+ The do block contains the code to print the value of i and increment it by 1.
+ The loop continues to run while i <= 4. As a result, numbers from 1 to 4 are printed.
+ Even if i was initially greater than 4, the message would still print once because the condition
+is checked after the code block execution.
