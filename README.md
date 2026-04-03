@@ -272,3 +272,11 @@ For loop;
  for (int i = 0; i <= 4; i++) {
  System.out.println("Hi " + i);
  }
+******************************************************************************************************
+length() – This gives you the total number of characters in the string.
+charAt(index) – It returns the character at the specified position (index) in the string.
+equals(anotherString) – This checks if two strings are exactly the same, including uppercase and lowercase differences.
+equalsIgnoreCase(anotherString) – This checks if two strings are the same, ignoring differences between uppercase and lowercase.
+toLowerCase() – This converts the entire string to lowercase letters.
+******************************************************************************************************
+
