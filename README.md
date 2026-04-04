@@ -286,4 +286,11 @@ user-defined data types that act as templates for objects.
 Java Objects
 ● An object in Java is an instance of a class. It is a basic unit of
 Object-Oriented Programming and represents real-life entities.
+******************************************************************************************************
+Arrays
+int nums[]={1,2,3}
+int a[]= new int[3]// bydeafualt if we print all the value will be zero
+int  num [][]=new int[3][4] here 3 means number of arrays and 4 mens number of column in array
+
+
 
