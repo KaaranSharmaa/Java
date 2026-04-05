@@ -303,3 +303,6 @@ String buffer basically string buffer is the method which is muttable which can 
 encapsulation basicaly bindin of data with method with a help of obj is know as encapsultaion
 
 *************************************************************************************************
+constructer basically it is a type of method only which is same name as of class and it dont return anythink
+you dont need to call them bydefault they are called when you create object but no visible
+basically it is used whn you want want to define all over valur at intial it will take 0 or null but if you want to define somwthink then we use constructor
