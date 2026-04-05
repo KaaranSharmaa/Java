@@ -300,4 +300,6 @@ name.char(index:1)
 ******************************************************************************************************
 String buffer basically string buffer is the method which is muttable which can be change by that we means that while at the creation of the time it will take the extra space of 12 byte so that it will be eassy to append;
 ******************************************************************************************************
+encapsulation basicaly bindin of data with method with a help of obj is know as encapsultaion
 
+*************************************************************************************************
