@@ -291,6 +291,13 @@ Arrays
 int nums[]={1,2,3}
 int a[]= new int[3]// bydeafualt if we print all the value will be zero
 int  num [][]=new int[3][4] here 3 means number of arrays and 4 mens number of column in array
+******************************************************************************************************
+Strign is used to store the data character dat we will apply " " to store the data 
+string is muttable immutable by deafult which means cant be change by cant be change its mean that once a memory is allocated then it wont edit if we want to edit it it will take new space in heap memory and old data and combine them and use then the old string data it will cleared by garbage collector 
 
-
+string name ="Karan";
+name.char(index:1)
+******************************************************************************************************
+String buffer basically string buffer is the method which is muttable which can be change by that we means that while at the creation of the time it will take the extra space of 12 byte so that it will be eassy to append;
+******************************************************************************************************
 
