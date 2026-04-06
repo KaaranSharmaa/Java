@@ -335,3 +335,12 @@ Reflection, Collections.
 example: concat(), toString(), wait(), notify().
 ● Constants: Written in all uppercase letters, often with words separated by underscores.
 For example: PIE, SUNDAY, MAX_VALUE.
+
+********************************************************************************************************
+A obj =new A();
+
+till now we have think that this line crate the object but no only 
+new A(); 
+this line crreates the objects ok and this are know as anonymous object 
+butr the issue is you cant reuse them
+********************************************************************************************************
