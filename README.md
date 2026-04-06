@@ -321,3 +321,7 @@ such as the company name of employees, or the college name of students.
 • The static variable gets memory only once in the class area, at the time of class
 loading
 ********************************************************************************************************
+A static block in Java is a block of code associated with the static keyword. This block is
+used for the static initialization of a class and is executed only once when the class is loaded
+into memory for the first time. Unlike other code blocks, a static block runs before any object
+of the class is created and even before the constructor is called.
