@@ -325,3 +325,13 @@ A static block in Java is a block of code associated with the static keyword. Th
 used for the static initialization of a class and is executed only once when the class is loaded
 into memory for the first time. Unlike other code blocks, a static block runs before any object
 of the class is created and even before the constructor is called.
+********************************************************************************************************
+
+NAming convencen 
+
+Classes and Interfaces: The first letter is uppercase. For example: Thread, Runnable,
+Reflection, Collections.
+● Methods: Start with a lowercase letter, with subsequent words capitalized. For
+example: concat(), toString(), wait(), notify().
+● Constants: Written in all uppercase letters, often with words separated by underscores.
+For example: PIE, SUNDAY, MAX_VALUE.
