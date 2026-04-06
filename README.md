@@ -306,3 +306,18 @@ encapsulation basicaly bindin of data with method with a help of obj is know as 
 constructer basically it is a type of method only which is same name as of class and it dont return anythink
 you dont need to call them bydefault they are called when you create object but no visible
 basically it is used whn you want want to define all over valur at intial it will take 0 or null but if you want to define somwthink then we use constructor
+
+********************************************************************************************************
+parmterized constructor basically in which we pass parmter
+Default in which we dont pass parameter
+
+********************************************************************************************************
+The static keyword in Java is primarily used for memory management. It can be applied to
+variables, methods, blocks, and nested classes. The static keyword belongs to the class itself
+rather than to instances of the class, meaning
+When you declare a variable as static, it is known as a static variable. A static variable is used
+to refer to the common property of all objects of a class (which is not unique for each object),
+such as the company name of employees, or the college name of students.
+• The static variable gets memory only once in the class area, at the time of class
+loading
+********************************************************************************************************
