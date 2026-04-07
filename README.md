@@ -345,3 +345,23 @@ this line crreates the objects ok and this are know as anonymous object
 butr the issue is you cant reuse them
 ********************************************************************************************************
 method overriding means i fdefins same method in two diffrend classes and they have used inherintnce then it will use the last one method by last oen i mean that child class will be priportie ok for example
+class A{
+    public void print1(){
+        System.out.println("in class A");
+    }
+}
+class B extends A{
+    public void print1(){
+        System.out.println("in class B");
+    }
+
+}
+
+class MethodOverriding{
+    public static void main(String[] args) {
+        B obj = new B();
+        obj.print1();
+
+        
+    }
+}
