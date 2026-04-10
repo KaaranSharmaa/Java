@@ -436,7 +436,14 @@ public class Test {
         obj.show();       // decides at runtime → Class B
     }
 }
+********************************************************************************************************
+Final keyword
 
+if its apply in variable then the value cannot be changed in a program
+
+if its apply in classs then it cant be inherited by any other classs.
+
+if its apply in method than that will proceesed and run always
 
 
 
