@@ -414,6 +414,29 @@ public class Test {
 2)Compile time polymorphism-:its define whilr the complile time   
      Exapmle method overloading  add(int a,int b);
                                 add(int a,int b,int c);  
-                                
-                                                             
+
+********************************************************************************************************
+Method overding mean 
+the obj which will be runtime only for exAMPLE
+class A {
+    void show() {
+        System.out.println("Class A");
+    }
+}
+
+class B extends A {
+    void show() {
+        System.out.println("Class B");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        A obj = new B();  // parent reference, child object
+        obj.show();       // decides at runtime → Class B
+    }
+}
+
+
+
 
