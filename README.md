@@ -388,3 +388,30 @@ Acces modifier
 polymorphism 
 poly means many morphism means behaviour
 
+there are wo type of polymorphism 
+1)runtime ploymorphism -: its behaviour is defined at the runtime of th program 
+example method overriding -: 
+class A {
+    void show() {
+        System.out.println("Class A");
+    }
+}
+
+class B extends A {
+    void show() {
+        System.out.println("Class B");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        A obj = new B();  // parent reference, child object
+        obj.show();       // decides at runtime → Class B
+    }
+}
+    
+
+2)Compile time polymorphism-:its define whilr the complile time   
+     Exapmle method overloading  add(int a,int b);
+                                add(int a,int b,int c);                               
+
