@@ -1,20 +1,21 @@
-class A{
-    public void print1(){
-        System.out.println("in class A");
+class A {
+    void show() {
+        System.out.println("Class A");
     }
 }
-class B extends A{
-    public void print1(){
-        System.out.println("in class B");
-    }
 
+class B extends A {
+    void show() {
+        System.out.println("Class B");
+    }
 }
 
-class MethodOverriding{
+public class Methodoverriding {
     public static void main(String[] args) {
-        B obj = new B();
-        obj.print1();
-
-        
+        A obj = new B();  // parent reference, child object
+        obj.show();       // decides at runtime → Class B
     }
 }
+
+
+// so the diffrence is that the it is assigned while runing the code   A obj = new B(); like Class B will be printed here

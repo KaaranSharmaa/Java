@@ -413,5 +413,7 @@ public class Test {
 
 2)Compile time polymorphism-:its define whilr the complile time   
      Exapmle method overloading  add(int a,int b);
-                                add(int a,int b,int c);                               
+                                add(int a,int b,int c);  
+                                
+                                                             
 
